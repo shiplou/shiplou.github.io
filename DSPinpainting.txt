@@ -1,0 +1,9 @@
+@inproceedings{Lu2013DSP, 
+ author = {Shao-ping Lu and Jan Hanca and Adrian Munteanu and Peter Schelkens},
+ title = {Depth-based View Synthesis Using Pixel-level Image Inpainting}, 
+ booktitle ={Proceedings of 18th International Conference on Digital Signal Processing (DSP)},
+ pages = {1-6},
+ year = {2013},
+ month={July},
+ address = {Santorini, Greece},
+}

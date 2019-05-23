@@ -1,0 +1,10 @@
+@article{spic2017, 
+ author = {Siqi Ye and Shao-Ping Lu and Adrian Munteanu},
+ title = {Color Correction for Large-baseline Multiview Video}, 
+ journal ={Signal Processing: Image Communication},
+ pages = {40-50},
+ volume = {53},
+ year = {2017}
+}
+
+

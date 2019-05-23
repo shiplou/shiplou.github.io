@@ -1,0 +1,10 @@
+@article{lu2016survey,
+  title={A survey on multiview video synthesis and editing},
+  author={Lu, Shaoping and Mu, Taijiang and Zhang, Songhai},
+  journal={Tsinghua Science and Technology},
+  volume={21},
+  number={6},
+  pages={678--695},
+  year={2016},
+  publisher={TUP}
+}
