@@ -1,9 +1,0 @@
-@article{BiggerSelfie, 
- author = {Miao Wang, Ariel Shami, Guo-Ye Yang, Jin-Kun Lin, Shao-Ping Lu, and Shi-Min Hu},
- title = {BiggerSelfie: Selfie Video Expansion with Hand-held Camera}, 
- journal ={IEEE Transactions on Image Processing},
- pages = {1735-1747},
- volume = {27},
- number = {4},
- year = {2018},
-}
