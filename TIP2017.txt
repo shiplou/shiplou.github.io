@@ -1,9 +1,0 @@
-@article{HyperlapseTIP2017, 
- author = {Miao Wang, Jun-Bang Liang, Song-Hai Zhang, Shao-Ping Lu, Ariel Shamir, and Shi-Min Hu},
- title = {Hyper-lapse from Multiple Spatially-overlapping Videos}, 
- journal ={IEEE Transactions on Image Processing},
- pages = {1735-1747},
- volume = {27},
- number = {4},
- year = {2018},
-}
