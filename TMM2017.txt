@@ -1,9 +1,0 @@
-@article{wavelet2017, 
- author = {Ruxandra-Marina Florea and Adrian Munteanu and Shao-Ping Lu and Peter Schelkens},
- title = {Wavelet-Based L-infinity Semi-regular Mesh Coding}, 
- journal ={IEEE Transactions on Multimedia},
- pages = {236-250},
- volume = {19},
- number = {2},
- year = {2017},
-}
