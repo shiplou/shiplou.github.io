@@ -1,9 +1,0 @@
-@article{MVSynthesis, 
- author = {Beerend Ceulemans and Shao-Ping Lu and Gauthier Lafruit and Adrian Munteanu},
- title = {Robust Multiview Synthesis for Wide-Baseline Camera Arrarys}, 
- journal ={IEEE Transactions on Multimedia},
- pages = {xxx},
- volume = {xx},
- number = {x},
- year = {2018},
-}
