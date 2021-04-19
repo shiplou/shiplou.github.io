@@ -1,8 +1,0 @@
-@inproceedings{nguyen2015robust,
-  title={Robust stereo matching using census cost, discontinuity-preserving disparity computation and view-consistent refinement},
-  author={Nguyen, Duc Minh and Hanca, Jan and Lu, Shao-Ping and Munteanu, Adrian},
-  booktitle={3D Imaging (IC3D), 2015 International Conference on},
-  pages={1--8},
-  year={2015},
-  organization={IEEE}
-}
