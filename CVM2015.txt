@@ -1,9 +1,0 @@
-@article{lu2016color,
-  title={Color retargeting: interactive time-varying color image composition from time-lapse sequences},
-  author={Lu, Shao-Ping and Dauphin, Guillaume and Lafruit, Gauthier and Munteanu, Adrian},
-  journal={Computational Visual Media},
-  volume={1},
-  number={4},
-  pages={321--330},
-  year={2016}
-}
