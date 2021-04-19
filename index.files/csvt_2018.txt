@@ -1,9 +1,0 @@
-@article{lenslet18, 
- author = {Rui Zhong and Ionut Schiopu and Bruno Cornelis and Shao-Ping Lu and Junsong Yuan and Adrian Munteanu},
- title = {Dictionary Learning-based, Directional and Optimized Prediction for Lenslet Image Coding}, 
- journal ={IEEE Transactions on Circuits and Systems for Video Technology},
- pages = {xxx-xxx},
- volume = {xx},
- number = {x},
- year = {2018},
-}

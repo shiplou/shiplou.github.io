@@ -1,8 +1,0 @@
-@inproceedings{ICIP18, 
- author = {Shao-Ping Lu, Jie You, Beerend Ceulemans, Miao Wang and Adrian Munteanu},
- title = {Synthesis of Shaking Video using Motion Capture Data and Dynamic 3D Scene Modeling}, 
- booktitle={International Conference on Image Processing (ICIP)},
- pages={1--5},
- organization={IEEE},
- year={2018}
-}
