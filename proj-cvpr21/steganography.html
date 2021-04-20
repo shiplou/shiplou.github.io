@@ -450,8 +450,16 @@ p.MsoNormal {	mso-style-unhide:no;
 <p>&nbsp;</p>
 <h2>Abstract</h2>
 <p align="justify">Many attempts have been made to hide information in images, where one main challenge is how to increase the payload capacity without the container image being detected as containing a message. In this paper, we propose a large-capacity Invertible Steganography Network (ISN) for image steganography. We take steganography and the recovery of hidden images as a pair of inverse problems on image domain transformation, and then introduce the forward and backward propagation operations of a single invertible network to leverage the image embedding and extracting problems. Sharing all parameters of our single ISN architecture enables us to efficiently generate both the container image and the revealed hidden image(s) with high quality. Moreover, in our architecture the capacity of image steganography is significantly improved by naturally increasing the number of channels of the hidden image branch. Comprehensive experiments demonstrate that with this significant improvement of the steganography payload capacity, our ISN achieves state-of-the-art in both visual and quantitative comparisons. </p>
-<h2 align="justify"> Experimental Results:</h2>
-<p align="justify"><span class="wp-block-jetpack-slideshow_slide swiper-slide">&nbsp;<img src="fig6.png" width="596" height="268" alt=""/></span></p>
+<h2 align="justify">Example 1: hiding and revealing 1 image (with the same resolution of the host image)</h2>
+<h2><img src="hid1.jpg" width="1071" height="946" alt=""/>Example 2: hiding and revealing 3 images  (with the same resolution of the host image)</h2>
+<p><img src="hid3-host.jpg" width="977" height="509" alt=""/><img src="hid3-rev.jpg" width="1027" height="851" alt=""/>
+</p>
+<h2>Example 3: hiding and revealing 4 images  (with the same resolution of the host image)</h2>
+<h2 align="justify"><img src="hid4-host.jpg" width="980" height="518" alt=""/><img src="hid4-rev.jpg" width="1074" height="630" alt=""/>Example 4: hiding and revealing 5 images  (with the same resolution of the host image)</h2>
+<p align="justify"><img src="hid5-host.jpg" width="992" height="519" alt=""/><img src="hid5-rev.jpg" width="1050" height="532" alt=""/></p>
+<h2 align="justify">Test: Average PSNRs of the revealed hidden images and the container images when embedding 1~5 images:</h2>
+<p align="justify"><span class="wp-block-jetpack-slideshow_slide swiper-slide"><img src="fig6.png" width="815" height="413" alt=""/></span></p>
+<h3>&nbsp;</h3>
 <p align="justify">&nbsp;</p>
 <p align="justify">&nbsp;</p>
 <p align="justify">&nbsp;</p>
@@ -459,35 +467,53 @@ p.MsoNormal {	mso-style-unhide:no;
 <p align="justify">&nbsp;</p>
 <p align="justify">&nbsp;</p>
 <p align="justify">&nbsp;</p>
+<h3>&nbsp;</h3>
+<h3>Comparison with DeepSteg[5]:</h3>
+<blockquote> 
+  <p>[5] Shumeet Baluja. Hiding images within images. IEEE TPAMI, 2020.  </p>
+  <p>Objective comparison using PSNR/SSIM. - h1 and - h2 represents to hide 1 and 2 images respectively. (c) means cross-domain testing, i.e. the model trained on another dataset is tested directly without fine-tuning.</p>
+  <p>Visual comparisons for hiding and revealing two images:
+    <span class="wp-block-jetpack-slideshow_slide swiper-slide">&nbsp;&nbsp;<img src="comp_psnr.png" width="723" height="330" alt=""/></span></p>
+</blockquote>
 <p align="justify">&nbsp;</p>
-<p align="justify"><span class="wp-block-jetpack-slideshow_slide swiper-slide">&nbsp;&nbsp;<img src="comp_psnr.png" width="660" height="282" alt=""/></span></p>
 <p align="justify">&nbsp;</p>
 <p align="justify">&nbsp;</p>
 <p align="justify">&nbsp;</p>
 <p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
-<h2 align="justify"><span class="wp-block-jetpack-slideshow_slide swiper-slide">Visual Results:</span></h2>
-<h2 align="justify"><img src="fig1.jpg" width="623" height="372" alt=""/></h2>
 <p align="justify">&nbsp;</p>
 <p align="justify">&nbsp;</p>
 <p align="justify">&nbsp;</p>
 <h2 align="justify">&nbsp;</h2>
+<p align="justify"><img src="vis_2hidden.png" width="807" height="558" alt=""/></p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<h3>Speeding up on Jittor AI Platform:</h3>
+<p>Compared to Pytorch, using Jittor [1-2] can significantly accelerate the inference speed and reduce the memory at the same time for various iamges with different resolutions:</p>
+<h2 align="justify"><span class="wp-block-jetpack-slideshow_slide swiper-slide"><img src="jittor.png" width="687" height="194" alt=""/></span></h2>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
 <h2 align="justify">&nbsp;</h2>
 <p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
-<h2 align="justify">Computational performance on Pytorch and Jittor:</h2>
-<h2 align="justify"><span class="wp-block-jetpack-slideshow_slide swiper-slide"><img src="jittor.png" width="605" height="146" alt=""/></span></h2>
-<p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
-<p align="justify">&nbsp;</p>
+<p align="justify">[1] https://cg.cs.tsinghua.edu.cn/jittor/</p>
+<p align="justify">[2] https://github.com/Jittor/Jittor</p>
 <h2 align="justify">&nbsp;</h2>
 <h2 align="justify"><span class="wp-block-jetpack-slideshow_slide swiper-slide">Citation:</span></h2>
 <p><strong>Large-capacity Image Steganography Based on Invertible Neural Networks</strong>, Shao-Ping Lu*, Rong Wang*, Tao Zhong, Paul L. Rosin, CVPR 2021. [<a href="../publications_files/CVPR21__Image_Steganography.pdf" target="new">PDF</a><a href="../../publications_files/CVPR21__Image_Steganography.pdf" target="new"></a><a href="../../publications_files/CVPR21__Image_Steganography.pdf"></a>] [<a href="../publications_files/cvpr21__image_steganography_supp.pdf" target="new">Supp</a><a href="../../publications_files/cvpr21__image_steganography_supp.pdf" target="new"></a><a href="../../publications_files/cvpr21__image_steganography_supp.pdf"></a>] [<a href="../publications_files/cvpr21__image_steganography_chinese.pdf" target="new">中译版</a><a href="../../publications_files/cvpr21__image_steganography_chinese.pdf" target="new"></a><a href="../../publications_files/cvpr21__image_steganography_chinese.pdf"></a>]</p>
@@ -495,10 +521,10 @@ p.MsoNormal {	mso-style-unhide:no;
   title={Large-capacity Image Steganography Based on Invertible Neural Networks},<br />
   author={Shao-Ping Lu, Rong Wang, Tao Zhong, Paul L. Rosin },<br />
   booktitle={CVPR},<br />
-  year={2021}</p>
-<p> }</p>
-<p><span class="style3"><span style='font-size:9.0pt'
-    lang="EN-US" xml:lang="EN-US"><br /></span></span></p>
+  year={2021}<br />
+  }<span class="style3"><span style='font-size:9.0pt'
+    lang="EN-US" xml:lang="EN-US"><br />
+  </span></span></p>
 <p>&nbsp;</p>
 </div>
 </body></html>
