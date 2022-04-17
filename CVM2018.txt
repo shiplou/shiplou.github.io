@@ -1,0 +1,9 @@
+@article{lu2018Cartoon,
+  title={Multiview Conversion of 2D Cartoon Image},
+  author={Lu, Shao-Ping and Sibo Feng and Beerend Ceulemans and Miao Wang and Rui Zhong and Munteanu, Adrian},
+  journal={Communications in Information and Systems},
+  volume={16},
+  number={4},
+  pages={229-254},
+  year={2017}
+}

@@ -1,0 +1,8 @@
+@inproceedings{ceulemans2016efficient,
+  title={Efficient MRF-based disocclusion inpainting in multiview video},
+  author={Ceulemans, Beerend and Lu, Shao-Ping and Lafruit, Gauthier and Schelkens, Peter and Munteanu, Adrian},
+  booktitle={Multimedia and Expo (ICME), 2016 IEEE International Conference on},
+  pages={1--6},
+  year={2016},
+  organization={IEEE}
+}

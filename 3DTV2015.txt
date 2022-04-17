@@ -1,0 +1,8 @@
+@inproceedings{ceulemans2015globally,
+  title={Globally optimized multiview video color correction using dense spatio-temporal matching},
+  author={Ceulemans, Beerend and Lu, Shao-Ping and Schelkens, Peter and Munteanu, Adrian},
+  booktitle={3DTV-Conference: The True Vision-Capture, Transmission and Display of 3D Video (3DTV-CON), 2015},
+  pages={1--4},
+  year={2015},
+  organization={IEEE}
+}

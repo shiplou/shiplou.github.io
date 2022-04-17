@@ -1,0 +1,8 @@
+@inproceedings{curvedmm17, 
+ author = {Shao-Ping Lu and Ruxandra-Marina Florea and Pablo Cesar and Peter Schelkens and Adrian Munteanu},
+ title = {Efficient Depth-aware Image Deformation Adaptation for Curved Screen Displays}, 
+ booktitle={ACM Conference on Multimedia (ACM MM) Thematic Workshop},
+ pages={1--9},
+ organization={ACM},
+ year={2017}
+}
